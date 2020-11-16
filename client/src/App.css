@@ -1,0 +1,198 @@
+.Navbar {
+    padding-left: 0;
+    background-image: linear-gradient(to right, #182945, #4c6cb7);
+}
+
+.card-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    margin: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.detailCard {
+    margin: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: default !important;
+}
+
+.detailShare {
+    float: right;
+}
+
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+
+#small-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+
+#big-description {
+
+}
+
+#big-bookmark-unchecked, #big-bookmark-checked, #small-bookmark-unchecked, #small-bookmark-checked {
+    height: 2em;
+    float: right;
+    color: red;
+}
+
+#big-bookmark-checked, #small-bookmark-checked {
+    display: none;
+}
+
+.small-card-title {
+    margin: 0;
+    padding: 1.25rem;
+    font-size: 0.9rem;
+    font-style: oblique;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+#big-card {
+    display: none;
+}
+
+.toast-body {
+    color: black;
+}
+
+.badge {
+    float: right;
+}
+
+.badge-business {
+    color: white;
+    background-color: #4696ec;
+}
+
+.badge-world {
+    color: white;
+    background-color: #7c4eff;
+}
+
+.badge-politics {
+    color: white;
+    background-color: #419488;
+}
+
+.badge-technology {
+    color: black;
+    background-color: #cedc39;
+}
+
+.badge-sports {
+    color: black;
+    background-color: #f6c244;
+}
+
+.badge-other {
+    color: white;
+    background-color: #6e757c;
+}
+
+.badge-guardian {
+    color: white;
+    background-color: #14284a;
+}
+
+.badge-nytimes {
+    color: black;
+    background-color: #dddddd;
+}
+
+.share-icon {
+    cursor: pointer;
+}
+
+.LoadSpinner {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.load-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switchbar {
+    display: flex;
+    align-items: center;
+}
+
+.bookmarkbar {
+    margin-bottom: 0.2rem;
+}
+
+.search-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-card-body {
+    padding-top: 0.5rem !important;
+}
+
+.search-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1.25rem 0 1.25rem !important;
+}
+
+.col-5 {
+    padding-right: 0 !important;
+}
+
+.col-sm-5 {
+    padding-right: 0 !important;
+}
+
+@media (max-width: 640px) {
+    .selectBar {
+        width: 75%;
+        margin-left: 3%;
+    }
+
+    .nav-link {
+        margin-left: 3%;
+    }
+
+    .switchbar {
+        margin-left: 3%;
+    }
+
+    .bookmarkbar {
+        margin-left: 3%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .selectBar {
+        width: 20%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
